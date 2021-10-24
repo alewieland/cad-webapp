@@ -72,8 +72,6 @@ def calculate_vessel(durchmesser_ohne_iso,hoehe_tank, pressure, temp, tanktyp = 
         
         
         
-        
-        
 def main():
     
     #import cadquery as cq
@@ -97,7 +95,7 @@ def main():
     temp = 65
     pressure = 3
     
-    calculate_vessel(durchmesser_ohne_iso, hoehe_tank, pressure, temp)
+    calculate_vessel(durchmesser_ohne_iso, hoehe_tank, pressure, temp, tanktyp)
     
 
 

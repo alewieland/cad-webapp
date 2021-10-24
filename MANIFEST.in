@@ -1,0 +1,4 @@
+include citerne/schema.sql
+graft citerne/static
+graft citerne/templates
+global-exclude *.pyc
